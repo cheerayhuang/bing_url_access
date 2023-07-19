@@ -65,7 +65,7 @@ class Browser(object):
     def analyse(self, raw_html):
         html = html_parser.fromstring(raw_html)
         html_cleaned = html_parser.tostring(Browser._cleaner.clean_html(html)).decode()
-        print(html_cleaned)
+        #print(html_cleaned)
         html = html_parser.fromstring(html_cleaned)
         el_body = html.xpath(r'//body')[0]
 
