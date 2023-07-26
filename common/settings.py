@@ -2,6 +2,7 @@ class UATConfig:
     KAFAK_TASK_TOPIC = r'test-topic-1'
     KAFKA_TASK_RESP_TOPIC = r'test-topic-resp-1'
 
+    KAFKA_TASK_HOST='127.0.0.1:9092'
     KAFKA_RESULT_HOST='127.0.0.1:9092'
 
     KAFKA_TASK_GROUP_ID = 'executor'
